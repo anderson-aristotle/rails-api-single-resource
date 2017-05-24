@@ -7,7 +7,7 @@ repository with a reference README.
 
 -   [Rails API: Single Resource](https://github.com/ga-wdi-boston/rails-api-single-resource)
 -   [Rails API: One-to-Many](https://github.com/ga-wdi-boston/rails-api-one-to-many)
--   [Rails API: Many-to-Many](https://github.com/ga-wdi-boston/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](/../rails-api-many-to-many)
 
 Each talk is designed to walk through the creation of a real Rails API,
 feature-by-feature, using "error driven development". Developers should have
