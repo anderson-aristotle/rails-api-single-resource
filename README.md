@@ -5,22 +5,22 @@
 This is part of the Rails API sequence of talks. Each talk has its own
 repository with a reference README.
 
--   [Rails API: Single Resource](https://github.com/ga-wdi-boston/rails-api-single-resource)
--   [Rails API: One-to-Many](https://github.com/ga-wdi-boston/rails-api-one-to-many)
--   [Rails API: Many-to-Many](/../rails-api-many-to-many)
--   [Rails API: Many-to-Many](../rails-api-many-to-many)
--   [Rails API: Many-to-Many](/rails-api-many-to-many)
--   [Rails API: Many-to-Many](/../ga-wdi-boston/rails-api-many-to-many)
--   [Rails API: Many-to-Many](../ga-wdi-boston/rails-api-many-to-many)
--   [Rails API: Many-to-Many](/ga-wdi-boston/rails-api-many-to-many)
--   [Rails API: Many-to-Many](ga-wdi-boston/rails-api-many-to-many)
+-   [Rails API: Single Resource](https://git.generalassemb.ly/ga-wdi-boston/rails-api-single-resource)
+-   [Rails API: One-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
+-   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
 
 Each talk is designed to walk through the creation of a real Rails API,
 feature-by-feature, using "error driven development". Developers should have
 completed the introductory [Rails
-API](https://github.com/ga-wdi-boston/rails-api) talk. This sequence ends with
+API](https://git.generalassemb.ly/ga-wdi-boston/rails-api) talk. This sequence ends with
 [Rails API: Behavior-Driven
-Development](https://github.com/ga-wdi-boston/rails-api-bdd), where
+Development](https://git.generalassemb.ly/ga-wdi-boston/rails-api-bdd), where
 error-driven-development is replaced by automated testing.
 
 Each talk covers three domains, and therefore, three APIs. The demonstration
@@ -29,9 +29,9 @@ developers and consultants work together to build the API. Finally, developers
 are expected to build their own API as part of the laboratory portions of each
 talk.
 
--   [Library API](https://github.com/ga-wdi-boston/rails-api-library-demo)
--   [Clinic API](https://github.com/ga-wdi-boston/rails-api-clinic-code-along)
--   [Cookbook API](https://github.com/ga-wdi-boston/rails-api-cookbook-lab)
+-   [Library API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-library-demo)
+-   [Clinic API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-clinic-code-along)
+-   [Cookbook API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-cookbook-lab)
 
 These API repositories contain a few important branches:
 
@@ -43,7 +43,7 @@ These API repositories contain a few important branches:
 
 ## Prerequisites
 
--   [`rails-api`](https://github.com/rails-api/rails-api)
+-   [`rails-api`](https://git.generalassemb.ly/rails-api/rails-api)
 
 ## Objectives
 
@@ -56,13 +56,13 @@ By the end of this lesson, developers should be able to:
 ## Preparation
 
 1.  Follow preparation instructions in [Library
-    API](https://github.com/ga-wdi-boston/rails-api-library-demo)
+    API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-library-demo)
 
 1.  Follow preparation instructions in [Clinic
-    API](https://github.com/ga-wdi-boston/rails-api-clinic-code-along)
+    API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-clinic-code-along)
 
 1.  Follow preparation instructions in [Cookbook
-    API](https://github.com/ga-wdi-boston/rails-api-cookbook-lab)
+    API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-cookbook-lab)
 
 1.  Open each in its own terminal window with two tabs -- one tab for the
 server, one for command line.
@@ -70,7 +70,7 @@ server, one for command line.
 
 ## Useful Documentation
 
--   [`active_model_serializers`](https://github.com/rails-api/active_model_serializers)
+-   [`active_model_serializers`](https://git.generalassemb.ly/rails-api/active_model_serializers)
 -   [`ruby`](https://www.ruby-lang.org/en/)
 -   [`postgres`](http://www.postgresql.org)
 
