@@ -305,6 +305,10 @@ Developers should run these often!
 <!-- TODO -   `rake nag` checks your code style. -->
 <!-- TODO -   `rake lint` checks your code for syntax errors. -->
 
+## Additional Resources
+
+- https://www.ralfebert.de/snippets/ruby-rails/models-tables-migrations-cheat-sheet/
+
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
