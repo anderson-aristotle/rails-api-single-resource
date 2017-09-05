@@ -7,12 +7,6 @@ repository with a reference README.
 
 -   [Rails API: Single Resource](https://git.generalassemb.ly/ga-wdi-boston/rails-api-single-resource)
 -   [Rails API: One-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/rails-api-many-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
 -   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
 
 Each talk is designed to walk through the creation of a real Rails API,
@@ -47,7 +41,7 @@ These API repositories contain a few important branches:
 
 ## Objectives
 
-By the end of this lesson, developers should be able to:
+By the end of this, developers should be able to:
 
 -   Follow along in the creation of an API.
 -   Build a complete server side API in Rails
@@ -310,6 +304,10 @@ Developers should run these often!
 
 <!-- TODO -   `rake nag` checks your code style. -->
 <!-- TODO -   `rake lint` checks your code for syntax errors. -->
+
+## Additional Resources
+
+- https://www.ralfebert.de/snippets/ruby-rails/models-tables-migrations-cheat-sheet/
 
 ## [License](LICENSE)
 
