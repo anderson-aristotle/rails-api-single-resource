@@ -207,7 +207,7 @@ We're going to create a single book:
 ### CRUD: C
 
 ```ruby
-Book.create([{ title: 'Less Funny Than Jason', author: 'Lauren Fazah'}])
+Book.create([{ title: 'A Dance With Dragons', author: 'George R.R. Martin'}])
 ```
 
 We can even use other methods such as `.new` and `.save`.
@@ -220,11 +220,11 @@ If want to use Active Record for seeing what is in our data store we can do so
 by looking for a speific field.
 
 ```ruby
-Book.find_by(author: 'Lauren Fazah')
+Book.find_by(author: 'George R.R. Martin')
 # returns the first author
 
-Book.where(author: 'Lauren Fazah')
-# returns all results where author == 'Lauren Fazah'
+Book.where(author: 'George R.R. Martin')
+# returns all results where author == 'George R.R. Martin'
 
 Book.last
 # returns the last book in the collection
@@ -238,11 +238,11 @@ encourge you to look up more in your off time.
 Let's update one of our books using Active record
 
 ```ruby
-book = Book.find_by(title: 'Less Funny Than Jason')
-book.update(title: 'Less overall cool factor than Jason: The Sequel')
+book = Book.find_by(title: 'A Dance With Dragons')
+book.update(title: 'Tango With Dragons')
 
 # You could also string this together
-Book.find_by(title: 'Less overall cool factor than Jason: The Sequel').update(title: 'JASON IS AWESOME THE TRILOGY')
+Book.find_by(title: 'Tango With Dragons').update(title: 'WINTER IS HERE')
 ```
 
 Now navigate to `localhost:4741/books` and see if anything has changed.
@@ -252,11 +252,11 @@ Now navigate to `localhost:4741/books` and see if anything has changed.
 Finally, if we want to remove a book with Active Record we simply do:
 
 ```ruby
-Book.find_by(author: 'Jason Weeks').destroy
+Book.find_by(author: 'George R.R. Martin').destroy
 ```
 
 Note: `find_by` will only destroy *one* book. If we want to destroy *all* the
-books by Jason, we have to use `where`.
+books by an author, we have to use `where`.
 
 Now navigate to `localhost:4741/books` and see if anything has changed.
 
