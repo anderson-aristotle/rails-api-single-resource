@@ -265,6 +265,18 @@ Now navigate to `localhost:4741/books` and see if anything has changed.
 Let's load example data by running `bin/rake db:examples`. It's a good idea to
 write example data so you can test your own APIs.
 
+Follow the steps outlined in good Error Driven Development
+1. Test the route, see that a route does not exist
+1. Add the route
+1. Test the route, see that a route does exist but controller does not
+1. Add the controller
+1. Test the route, see that a controller exists but model does not
+1. Add the model
+1. Test the route, see that a Model exists but migrations must be run
+1. Run migrations
+1. Test the route, ensure actions are successful
+1. Use Rails Console to ensure all data persists as expected
+
 ## Code-along: `PatientsController#index`
 ## Lab: `IngredientsController#index`
 ## Demo: `BooksController#show`
