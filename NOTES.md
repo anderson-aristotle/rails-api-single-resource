@@ -1,5 +1,11 @@
 ## Delivery Notes
 
+### Why are we doing single resource, then one to many, then many to many?
+
+One of the major intents of this sequence is to demonstrate HOW the developers should go about building out these resources. Starting with a simple resource with no relationships and building it out from there.
+
+Why not just add all three models at once and tie them all together? The reason we do things one-at-a-time, is because if we move slow and methodically make adjustments we're MUCH LESS likely to make mistakes. Doing things one-at-a-time with small adjustments also keeps our application working ALL THE TIME.
+
 ### Terminal Management
 
 Managing multiple terminals efficiently is **Wicked Important**. At the beginning of this training, pick colors for developers to use for each repo they will be working on. For example, for the cookbook code along, choose a green terminal, and for the clinic lab, use white terminal. The consultant should choose a different color for the library code along. Each terminal should have two tabs
