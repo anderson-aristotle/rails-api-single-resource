@@ -30,6 +30,10 @@ Keeping track of the different CRUD actions we go through is helpful for this se
 
 ![CRUD table diagram](https://git.generalassemb.ly/storage/user/3667/files/f92fc3f6-4610-11e7-8824-6747106b24c7)
 
+### Rails Permitted Params
+
+![Permitted Params diagram](https://git.generalassemb.ly/storage/user/5747/files/2d775c2c-9e19-11e7-9874-451aad93d514)
+
 ### Additional Diagrams
 
 This has been used in `many-to-many` in the past, but it could be here. It's very helpful in illustrating the flow of a Rails API.
