@@ -1,5 +1,11 @@
 ## Delivery Notes
 
+### Why are we doing single resource, then one to many, then many to many?
+
+One of the major intents of this sequence is to demonstrate HOW the developers should go about building out these resources. Starting with a simple resource with no relationships and building it out from there.
+
+Why not just add all three models at once and tie them all together? The reason we do things one-at-a-time, is because if we move slow and methodically make adjustments we're MUCH LESS likely to make mistakes. Doing things one-at-a-time with small adjustments also keeps our application working ALL THE TIME.
+
 ### Terminal Management
 
 Managing multiple terminals efficiently is **Wicked Important**. At the beginning of this training, pick colors for developers to use for each repo they will be working on. For example, for the cookbook code along, choose a green terminal, and for the clinic lab, use white terminal. The consultant should choose a different color for the library code along. Each terminal should have two tabs
@@ -23,6 +29,10 @@ When it is time for developers to write curl scripts, the following list is very
 Keeping track of the different CRUD actions we go through is helpful for this sequence and is great for pacing the training. The following diagram could be filled out over time as each step is completed.
 
 ![CRUD table diagram](https://git.generalassemb.ly/storage/user/3667/files/f92fc3f6-4610-11e7-8824-6747106b24c7)
+
+### Rails Permitted Params
+
+![Permitted Params diagram](https://git.generalassemb.ly/storage/user/5747/files/2d775c2c-9e19-11e7-9874-451aad93d514)
 
 ### Additional Diagrams
 
