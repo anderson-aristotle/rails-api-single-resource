@@ -1,21 +1,14 @@
-## Delivery Notes
+# Delivery Notes
 
-### Why are we doing single resource, then one to many, then many to many?
+## Why are we doing single resource, then one to many, then many to many?
 
 One of the major intents of this sequence is to demonstrate HOW the developers should go about building out these resources. Starting with a simple resource with no relationships and building it out from there.
 
 Why not just add all three models at once and tie them all together? The reason we do things one-at-a-time, is because if we move slow and methodically make adjustments we're MUCH LESS likely to make mistakes. Doing things one-at-a-time with small adjustments also keeps our application working ALL THE TIME.
 
-Here is an example of the evolution of our ERD over the sequence.
 It is important to highlight our methodical build by version as well as the end goal.
 
-We used https://www.lucidchart.com to create these in case someone has to make alterations or new ones.
-
-![ERD Library](https://git.generalassemb.ly/storage/user/3667/files/41f4659c-ce2e-11e7-8e42-a1adbefc1bd5)
-
-![ERD Clinic](https://git.generalassemb.ly/storage/user/3667/files/4e3c51d4-ce2e-11e7-9d36-8379102225c9)
-
-![ERD Cookbook](https://git.generalassemb.ly/storage/user/3667/files/3c4edcb2-ce2e-11e7-9867-9b6d7544d621)
+Review the User Stories and ERD version goals located on the README of each API with the developers so they can see the big picture as well as our methodical steps towards it.
 
 ### Terminal Management
 
