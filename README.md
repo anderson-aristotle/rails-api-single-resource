@@ -318,9 +318,16 @@ Developers should run these often!
 <!-- TODO -   `rake lint` checks your code for syntax errors. -->
 
 ## Additional Resources
-
-- https://www.ralfebert.de/snippets/ruby-rails/models-tables-migrations-cheat-sheet/
-
+- [Rails Docs: Routing](http://guides.rubyonrails.org/routing.html)
+- [Rails Docs: Controllers ](http://guides.rubyonrails.org/action_controller_overview.html)
+- [Rails Docs: Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
+- [Rails Docs: Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html)
+- [Rails Docs: Active Model Basics](http://guides.rubyonrails.org/active_model_basics.html)
+- [Rails Docs: Command Line](http://guides.rubyonrails.org/command_line.html)
+- [Migration Cheat Sheet](https://www.ralfebert.de/snippets/ruby-rails/models-tables-migrations-cheat-sheet/)
+- [Rails Reserved Words](https://reservedwords.herokuapp.com/)
+- [Rails Status Symbols](http://billpatrianakos.me/blog/2013/10/13/list-of-rails-status-code-symbols/)
+- 
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
