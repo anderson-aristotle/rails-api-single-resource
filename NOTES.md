@@ -6,6 +6,17 @@ One of the major intents of this sequence is to demonstrate HOW the developers s
 
 Why not just add all three models at once and tie them all together? The reason we do things one-at-a-time, is because if we move slow and methodically make adjustments we're MUCH LESS likely to make mistakes. Doing things one-at-a-time with small adjustments also keeps our application working ALL THE TIME.
 
+Here is an example of the evolution of our ERD over the sequence.
+It is important to highlight our methodical build by version as well as the end goal.
+
+We used https://www.lucidchart.com to create these in case someone has to make alterations or new ones.
+
+![ERD Library](https://git.generalassemb.ly/storage/user/3667/files/41f4659c-ce2e-11e7-8e42-a1adbefc1bd5)
+
+![ERD Clinic](https://git.generalassemb.ly/storage/user/3667/files/4e3c51d4-ce2e-11e7-9d36-8379102225c9)
+
+![ERD Cookbook](https://git.generalassemb.ly/storage/user/3667/files/3c4edcb2-ce2e-11e7-9867-9b6d7544d621)
+
 ### Terminal Management
 
 Managing multiple terminals efficiently is **Wicked Important**. At the beginning of this training, pick colors for developers to use for each repo they will be working on. For example, for the cookbook code along, choose a green terminal, and for the clinic lab, use white terminal. The consultant should choose a different color for the library code along. Each terminal should have two tabs
