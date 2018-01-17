@@ -1,10 +1,14 @@
-## Delivery Notes
+# Delivery Notes
 
-### Why are we doing single resource, then one to many, then many to many?
+## Why are we doing single resource, then one to many, then many to many?
 
 One of the major intents of this sequence is to demonstrate HOW the developers should go about building out these resources. Starting with a simple resource with no relationships and building it out from there.
 
 Why not just add all three models at once and tie them all together? The reason we do things one-at-a-time, is because if we move slow and methodically make adjustments we're MUCH LESS likely to make mistakes. Doing things one-at-a-time with small adjustments also keeps our application working ALL THE TIME.
+
+It is important to highlight our methodical build by version as well as the end goal.
+
+Review the User Stories and ERD version goals located on the README of each API with the developers so they can see the big picture as well as our methodical steps towards it.
 
 ### Terminal Management
 
