@@ -45,29 +45,29 @@ We'll trigger errors by issuing `curl` requests.
 
 Follow the steps outlined in good Error Driven Development
 1.  Route
-  1. Test the route, see that a route does not exist
-  1. Add the route
-  1. Test the route, see that a route does exist
-1.  Controller
-  1. Test the route, see that a route does exist but controller does not
-  1. Add the controller
-  1. Test the route, see that a controller exists
-1. Model
-  1. Test the route, see that a controller exists but model does not
-  1. Add the model
-  1. Test the route, see that a Model exists
-1. Migrations
-  1. Test the route, see that a Model exists but migrations must be run
-  1. Run migrations
+    - Test the route, see that a route does not exist
+    - Add the route
+    - Test the route, see that a route does exist
+2.  Controller
+    - Test the route, see that a route does exist but controller does not
+    - Add the controller
+    - Test the route, see that a controller exists
+3. Model
+    - Test the route, see that a controller exists but model does not
+    - Add the model
+    - Test the route, see that a Model exists
+4. Migrations
+    - Test the route, see that a Model exists but migrations must be run
+    - Run migrations
 1. Test Feature
-  1. Test the route, ensure actions are successful
-  1. Use Rails Console to ensure all data persists as expected
+    - Test the route, ensure actions are successful
+    - Use Rails Console to ensure all data persists as expected
 
 ## CRUD
 
 ### Read - index
 
-- Demo:  [BooksController#index](data/books_index.md)
+- Demo:  [BooksController#index](docs/books_index.md)
 - Code-along: `PatientsController#index`
 - Lab: `IngredientsController#index`
 
