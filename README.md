@@ -129,7 +129,7 @@ Developers should run these often!
 - [Rails Docs: Command Line](http://guides.rubyonrails.org/command_line.html)
 - [Migration Cheat Sheet](https://www.ralfebert.de/snippets/ruby-rails/models-tables-migrations-cheat-sheet/)
 - [Rails Reserved Words](https://reservedwords.herokuapp.com/)
-- [Rails Status Symbols](http://billpatrianakos.me/blog/2013/10/13/list-of-rails-status-code-symbols/)
+- [Rails Status Symbols](http://www.railsstatuscodes.com/)
 
 ## [License](LICENSE)
 
