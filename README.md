@@ -15,7 +15,7 @@ During the sequence, we will be building an API for a campus.
 
 ## Prerequisites
 
-- [`rails-api`](https://git.generalassemb.ly/ga-wdi-boston/rails-api)
+- [Rails API](https://git.generalassemb.ly/ga-wdi-boston/rails-api)
 
 ## Objectives
 
