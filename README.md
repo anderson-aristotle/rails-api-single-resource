@@ -22,8 +22,8 @@ During the sequence, we will be building an API for a campus.
 By the end of this, developers should be able to:
 
 - Follow along in the creation of an API.
-- Build a complete server side API in Rails
-- Create a model with full CRUD capability
+- Build a complete server side API in Rails.
+- Create a model with full CRUD capability.
 
 ## Preparation
 
