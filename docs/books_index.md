@@ -26,11 +26,13 @@ to create a Route that specifies what to do when that type of request comes in.
 Add the following code to `config/routes.rb`:
 
 Long-hand (used for custom routes)
+
 ```ruby
-get '/books', to: 'books#index'
+get '/books' => 'books#index'
 ```
 
 Short-hand
+
 ```ruby
 resources :books, only: [:index]
 ```
@@ -59,7 +61,7 @@ Rails has a number of generator tools for creating boilerplate files very
 quickly. To spin up a new controller, we can just run `bin/rails generate
 controller books`.
 
-This will automatically create a new file in `app/controllers` called
+This will automatically create a new file in `app/controllers` directory called
 `books_controller.rb`, with the following content:
 
 ```ruby
@@ -94,7 +96,7 @@ end
 Let's make a request and see if our error message has changed.
 
 It seems we have an `uninitialized constant`! This is because we have yet to
-tell rails what a `book` is, it doesn't know how to **model** the data.
+tell rails what a `Book` is, it doesn't know how to **model** the data.
 
 ## Model
 
@@ -118,7 +120,7 @@ have not added any.
 ## Rails Console
 
 First let's enter our `rails console` so we can make use of our models. This
-lets us interact with Rails from the command line.
+let's us interact with Rails from the command line.
 
 We're going to create a single book:
 
@@ -135,11 +137,11 @@ Now navigate to `localhost:4741/books` and see if anything has changed.
 ### CRUD: Read
 
 If want to use Active Record for seeing what is in our data store we can do so
-by looking for a speific field.
+by looking for a specific field.
 
 ```ruby
 Book.find_by(author: 'George R.R. Martin')
-# returns the first author
+# returns the first book where author == 'George R.R. Martin'
 
 Book.where(author: 'George R.R. Martin')
 # returns all results where author == 'George R.R. Martin'
