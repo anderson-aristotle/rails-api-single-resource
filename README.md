@@ -66,9 +66,14 @@ Follow the steps outlined in good Error Driven Development
 
 ## CRUD
 
+We'll now go through the steps for completing each CRUD action for multiple
+resources. We've included a little more breakdown for the first demo in case
+you would like to reference back to it in the future, you can click the link
+below or [this one to take you to those steps](docs/books_index.md).
+
 ### Read - index
 
-- Demo:  [BooksController#index](docs/books_index.md)
+- Demo: [BooksController#index](docs/books_index.md)
 - Code-along: `PatientsController#index`
 - Lab: `IngredientsController#index`
 
