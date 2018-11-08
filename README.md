@@ -5,30 +5,30 @@
 This is part of the Rails API sequence of talks. Each talk has its own
 repository with a reference README.
 
--   [Rails API: Single Resource](https://git.generalassemb.ly/ga-wdi-boston/rails-api-single-resource)
--   [Rails API: One-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many)
--   [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
+- [Rails API: Single Resource](https://git.generalassemb.ly/ga-wdi-boston/rails-api-single-resource)
+- [Rails API: One-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many)
+- [Rails API: Many-to-Many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
 
 During the sequence, we will be building an API for a campus.
 
--   [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
+- [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
 
 ## Prerequisites
 
--   [`rails-api`](https://git.generalassemb.ly/rails-api/rails-api)
+- [Rails API](https://git.generalassemb.ly/ga-wdi-boston/rails-api)
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
--   Follow along in the creation of an API.
--   Build a complete server side API in Rails
--   Create a model with full CRUD capability
+- Follow along in the creation of an API.
+- Build a complete server side API in Rails.
+- Create a model with full CRUD capability.
 
 ## Preparation
 
--   Set up the [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
--   Review feature goals for [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
+- Set up the [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
+- Review feature goals for [Campus API](https://git.generalassemb.ly/ga-wdi-boston/rails-api-campus-server)
 
 ## Methodical, Error-Driven Development
 
@@ -44,19 +44,20 @@ We'll trigger errors by issuing `curl` requests.
 ## Error-Driven Development Steps
 
 Follow the steps outlined in good Error Driven Development
-1.  Route
+
+1. Route
     - Test the route, see that a route does not exist
     - Add the route
     - Test the route, see that a route does exist
-2.  Controller
+1. Controller
     - Test the route, see that a route does exist but controller does not
     - Add the controller
     - Test the route, see that a controller exists
-3. Model
+1. Model
     - Test the route, see that a controller exists but model does not
     - Add the model
     - Test the route, see that a Model exists
-4. Migrations
+1. Migrations
     - Test the route, see that a Model exists but migrations must be run
     - Run migrations
 1. Test Feature
@@ -65,9 +66,14 @@ Follow the steps outlined in good Error Driven Development
 
 ## CRUD
 
+We'll now go through the steps for completing each CRUD action for multiple
+resources. We've included a little more breakdown for the first demo in case
+you would like to reference back to it in the future, you can click the link
+below or [this one to take you to those steps](docs/books_index.md).
+
 ### Read - index
 
-- Demo:  [BooksController#index](docs/books_index.md)
+- Demo: [BooksController#index](docs/books_index.md)
 - Code-along: `PatientsController#index`
 - Lab: `IngredientsController#index`
 
@@ -97,32 +103,33 @@ Follow the steps outlined in good Error Driven Development
 
 ## Tips
 
--  Be meticulous, did you check your pluralization? is your spelling correct?
-   Did you miss and `end`?
--  Test frequently, check for errors in your browser and server.
--  Follow your errors, they typically give you a line number, be patient.  You
-   should be able to identity the exact line of your bug before you ask for
-   assistance.
--  Remember to use the generators to your advantage. They can save you valuable
-   time.
+- Be meticulous, did you check your pluralization? is your spelling correct?
+  Did you miss and `end`?
+- Test frequently, check for errors in your browser and server.
+- Follow your errors, they typically give you a line number, be patient.  You
+  should be able to identity the exact line of your bug before you ask for
+  assistance.
+- Remember to use the generators to your advantage. They can save you valuable
+  time.
 
 ## Tasks
 
 Developers should run these often!
 
--   `bin/rake routes` lists the endpoints available in your API.
--   `bin/rake test` runs automated tests.
--   `bin/rails console` opens a REPL that pre-loads the API.
--   `bin/rails db` opens your database client and loads the correct database.
--   `bin/rails server` starts the API.
--   `scripts/*.sh` run various `curl` commands to test the API. See below.
+- `bin/rake routes` lists the endpoints available in your API.
+- `bin/rake test` runs automated tests.
+- `bin/rails console` opens a REPL that pre-loads the API.
+- `bin/rails db` opens your database client and loads the correct database.
+- `bin/rails server` starts the API.
+- `scripts/*.sh` run various `curl` commands to test the API. See below.
 
 <!-- TODO -   `rake nag` checks your code style. -->
 <!-- TODO -   `rake lint` checks your code for syntax errors. -->
 
 ## Additional Resources
+
 - [Rails Docs: Routing](http://guides.rubyonrails.org/routing.html)
-- [Rails Docs: Controllers ](http://guides.rubyonrails.org/action_controller_overview.html)
+- [Rails Docs: Controllers](http://guides.rubyonrails.org/action_controller_overview.html)
 - [Rails Docs: Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
 - [Rails Docs: Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html)
 - [Rails Docs: Active Model Basics](http://guides.rubyonrails.org/active_model_basics.html)
@@ -133,6 +140,6 @@ Developers should run these often!
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
