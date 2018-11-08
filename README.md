@@ -45,19 +45,19 @@ We'll trigger errors by issuing `curl` requests.
 
 Follow the steps outlined in good Error Driven Development
 
-1.  Route
+1. Route
     - Test the route, see that a route does not exist
     - Add the route
     - Test the route, see that a route does exist
-2.  Controller
+1. Controller
     - Test the route, see that a route does exist but controller does not
     - Add the controller
     - Test the route, see that a controller exists
-3. Model
+1. Model
     - Test the route, see that a controller exists but model does not
     - Add the model
     - Test the route, see that a Model exists
-4. Migrations
+1. Migrations
     - Test the route, see that a Model exists but migrations must be run
     - Run migrations
 1. Test Feature
@@ -103,14 +103,14 @@ below or [this one to take you to those steps](docs/books_index.md).
 
 ## Tips
 
--  Be meticulous, did you check your pluralization? is your spelling correct?
-   Did you miss and `end`?
--  Test frequently, check for errors in your browser and server.
--  Follow your errors, they typically give you a line number, be patient.  You
-   should be able to identity the exact line of your bug before you ask for
-   assistance.
--  Remember to use the generators to your advantage. They can save you valuable
-   time.
+- Be meticulous, did you check your pluralization? is your spelling correct?
+  Did you miss and `end`?
+- Test frequently, check for errors in your browser and server.
+- Follow your errors, they typically give you a line number, be patient.  You
+  should be able to identity the exact line of your bug before you ask for
+  assistance.
+- Remember to use the generators to your advantage. They can save you valuable
+  time.
 
 ## Tasks
 
